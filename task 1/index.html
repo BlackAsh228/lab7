@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Space now</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/1c518503ec.js" crossorigin="anonymous"></script>
+        <link type="image/x-icon" href="images/favicon/favicon.ico" rel="icon">
+        <meta name="keywords" content="космос, про космос, космос 2021, космос лучшее">
+        <meta name="description" content="Современная наука, которая сформировалась в XX веке, развивалась очень динамично, преподнося новые невероятные открытия, начиная изобретением обычной батарейки и заканчивая высадкой человека на Луну. Однако все это было только началом, только каплей в океане знаний, которые ожидают человечество впереди.">
+    <body>
+       <header>
+           <nav class="container">
+                <a class="logo">
+                    <i class="fas fa-rocket fa-1x"></i>
+                    <span>spacenow</span>
+                </a>
+                <div id="menu">
+                    <a href="index.html" class="menu" id="bm_1">Главная</a>
+                    <a href="#" class="menu" id="bm_2">Солнечная система</a>
+                    <a href="#" class="menu" id="bm_3">Популярные теории</a>
+                    <a href="#" class="menu" id="bm_4">Люди в космосе</a>
+                </div>
+                <div id="mobile_menu_container">
+                    <div id="mobile_menu">
+                        <button id="mm_1" onclick="go_to_main()">Главная</button>
+                        <button id="mm_2" onclick="go_to_sun()">Солнечная система</button>
+                        <button id="mm_3" onclick="go_to_void()">Популярные теории</button>
+                        <button id="mm_4" onclick="go_to_cosmomen()">Люди в космосе</button>
+                    </div>
+                </div>
+                <i class="fas fa-bars burger_menu fa-2x" onclick="open_close_menu()"></i>
+            </nav>
+       </header>
+       <main>
+           <div class="container">
+                <div id="start_image">
+                    <img src=images/start_image.jpg alt="space">
+                     <div id="start_text">  
+                        <h1>Что вы знаете о космосе?</h1>
+                        <i class="fas fa-chevron-down fa-3x" onclick="scroll_down()"></i> 
+                    </div>
+                </div>
+                <div id="content">
+                    <article id="article_1">
+                        <h2>Космос сейчас</h2>
+                        <p>Современная наука, которая сформировалась в XX веке, развивалась очень динамично, преподнося новые невероятные открытия, начиная изобретением обычной батарейки и заканчивая высадкой человека на Луну. Однако все это было только началом, только каплей в океане знаний, которые ожидают человечество впереди.</p>
+                        <p> Что касается освоения космоса, то в XXI веке оно стало еще стремительнее. Изобретение сверхмощных телескопов предоставило человеку возможность увидеть другие галактики со звездами и планетными системами. Занавес тайны о происхождении Вселенной приоткрыли математики, физики, астрономы и другие научные деятели современности.Но нам всё ещё предстоит произвести множество новых открытий.</p>
+                    </article>
+                    <article id="article_2">
+                        <h2>Всё можно узнать тут!</h2>
+                        <p>Как правило, интересные факты о космосе всегда находятся в центре внимания, привлекая к себе множество читателей во всем мире. Загадки и тайны Вселенной не оставляют равнодушным практически никого из нас. Существуют ли внеземные цивилизации? Сколько времени необходимо затратить, чтобы добраться до ближайшей галактики? Почему сверкают звезды разными цветами?Согласитесь, ответы на подобные вопросы хочется узнать каждому независимо от пола, возраста, социального статуса. Данный раздел нашего портала содержит интересные научные статьи о космосе, которые расширят Ваше воображение, погрузят в мир загадочного, таинственного, невообразимого.</p>
+                    </article>
+                    <div id="image_container_1">
+                        <img src="images/questions.jpg" alt="cool img">
+                    </div>
+                    <div id="image_container_2">
+                        <a href="#"><img src="images/sun.jpg" alt="sun_system" title="Солнечная система"></a>
+                        <a href="#"><img src="images/void.jpeg" alt="void" title="Популярные теории"></a>
+                        <a href="#"><img src="images/cosmomen.jpg" alt="cosmomen" title="Люди в космосе"></a>
+                    </div>
+                </div>
+            </div>
+       </main>
+       <footer>
+            <div class="container">
+                <span>&COPY;2021 spacenow</span>
+                <i class="fas fa-long-arrow-alt-up fa-2x " id="up_button" onclick="scroll_up()"></i>
+                <div id="social">
+                    <span>+375291554080</span>
+                    <a href="https://www.instagram.com/artur_sokolik/?hl=ru"><i class="fab fa-instagram-square fa-2x"></i></a>
+                    <a href="https://vk.com/sokolik_artur"><i class="fab fa-vk fa-2x "></i></a>
+                    <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                </div>
+            </div>
+       </footer>
+       <script src="script.js"></script>
+    </body>
+</html>
